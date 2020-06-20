@@ -1,0 +1,11 @@
+server:
+  port: 8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://cwadmin:cwadmin@localhost:8081/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: yuntu-pc
